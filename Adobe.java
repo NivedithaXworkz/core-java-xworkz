@@ -1,0 +1,3 @@
+class Adobe extends EditingSoftware{
+
+}

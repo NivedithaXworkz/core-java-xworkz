@@ -1,11 +1,11 @@
-class Bank{
+class Stadium{
 
-public void save(String location, int noOfWorkers){
+public void see(String location, double noOfSeats){
 	
 System.out.println("Invoked");
  
 System.out.println("The Location is :" + location);
-System.out.println("The No of Workers is :" + noOfWorkers);
+System.out.println("The No of Seats is :" + noOfSeats);
 
 System.out.println("Ended");	 
 }	 

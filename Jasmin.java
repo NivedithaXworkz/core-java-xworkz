@@ -1,0 +1,3 @@
+class Jasmin extends Flower{
+	 
+}
