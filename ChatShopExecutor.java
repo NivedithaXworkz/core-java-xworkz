@@ -1,18 +1,19 @@
 class ChatShopExecutor{
-	
+
 public static void main(String eat[]){
-ChatShop chat = new ChatShop();
-chat.addChatsName("Cheeseburger");
-chat.addChatsName("Sandwich");
-chat.addChatsName("Panipuri");
-chat.addChatsName("Toost");
-chat.addChatsName("Waffles");
-chat.addChatsName("Pizza");
-chat.addChatsName("Gobi");
-chat.addChatsName("Noodles");
-chat.addChatsName("Dai puri");
-chat.addChatsName("Pavbhaji");
-chat.getChatsName();
-		
+
+ChatShop chatName = new ChatShop ();
+chatName.addChatName("Cheeseburger");
+chatName.addChatName("Sandwich");
+chatName.addChatName("Panipuri");
+chatName.addChatName("Toost");
+chatName.addChatName("Waffles");
+chatName.addChatName("Pizza");
+chatName.addChatName("Gobi");
+chatName.addChatName("Noodles");
+chatName.addChatName("Dai puri");
+chatName.addChatName("Pavbhaji");
+chatName.addChatName("Momos");
+chatName.getChatNames();
 }
 }

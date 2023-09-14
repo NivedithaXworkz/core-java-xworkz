@@ -1,19 +1,21 @@
 class SpotifyExecutor{
-	
-public static void main(String listen[]){
-Spotify spotify = new Spotify();
-spotify.addSongsName("Dil Jhoom");
-spotify.addSongsName("Chaleya");
-spotify.addSongsName("Ramaiya Vastavaiya");
-spotify.addSongsName("Heeriye");
-spotify.addSongsName("Chal Tere Ishq Mein");
-spotify.addSongsName("Zihhal e Miskin");
-spotify.addSongsName("Kasam Se");
-spotify.addSongsName("Chandni");
-spotify.addSongsName("Kanhaiya");
-spotify.addSongsName("Saawan");
-spotify.addSongsName("Mahiye");
-spotify.getSongsName();
-		
+
+public static void main(String song[]){
+
+Spotify songName = new Spotify();
+songName.addSongName("Dil Jhoom");
+songName.addSongName("Chaleya");
+songName.addSongName("Ramaiya Vastavaiya");
+songName.addSongName("Heeriye");
+songName.addSongName("Chal Tere Ishq Mein");
+songName.addSongName("Zihhal e Miskin");
+songName.addSongName("Kasam Se");
+songName.addSongName("Chandni");
+songName.addSongName("Kanhaiya");
+songName.addSongName("O kogile Naa");
+songName.addSongName("Saawan");
+songName.addSongName("Mahiye");
+
+songName.getSongNames();
 }
 }

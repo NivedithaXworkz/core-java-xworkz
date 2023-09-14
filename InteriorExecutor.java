@@ -1,18 +1,20 @@
 class InteriorExecutor{
-	
-public static void main(String design[]){
-Interior interior = new Interior();
-interior.addMaterialsName("Drawing");
-interior.addMaterialsName("Colouring");
-interior.addMaterialsName("Fabric samples");
-interior.addMaterialsName("Measuring tape");
-interior.addMaterialsName("Digital Camera");
-interior.addMaterialsName("Handy multi-tool");
-interior.addMaterialsName("Pair of gloves");
-interior.addMaterialsName("Texture");
-interior.addMaterialsName("Shapes");
-interior.addMaterialsName("scale");
-interior.getMaterialsName();
-		
+
+public static void main(String style[]){
+
+Interior materialName = new Interior();
+materialName.addMaterialName("Drawing");
+materialName.addMaterialName("Colouring");
+materialName.addMaterialName("Fabric samples");
+materialName.addMaterialName("Measuring tape");
+materialName.addMaterialName("Digital Camera");
+materialName.addMaterialName("Handy multi-tool");
+materialName.addMaterialName("Pair of gloves");
+materialName.addMaterialName("Texture");
+materialName.addMaterialName("kallu");
+materialName.addMaterialName("Shapes");
+materialName.addMaterialName("scale");
+
+materialName.getMaterialNames();
 }
 }
