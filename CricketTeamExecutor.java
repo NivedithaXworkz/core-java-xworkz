@@ -1,21 +1,30 @@
 class CricketTeamExecutor{
 
-public static void main(String play[]){
+public static void main(String team[]){
 
-CricketTeam playerName = new CricketTeam();
-playerName.addPlayerName("Virat");
-playerName.addPlayerName("Dhoni");
-playerName.addPlayerName("Rahul");
-playerName.addPlayerName("Jadeja");
-playerName.addPlayerName("Hardik Pandya");
-playerName.addPlayerName("Rohit Sharma");
-playerName.addPlayerName("Sachin");
-playerName.addPlayerName("Shreyas");
-playerName.addPlayerName("Ashwin");
-playerName.addPlayerName("Gill");
-playerName.addPlayerName("Kishan");
-playerName.addPlayerName("Kurnal Pandya");
+Bater playerName = new Bater();
+playerName.addPlayerName("Virat Kohli");
+playerName.addPlayerName("Faf Du Plessis");
+playerName.addPlayerName("Wanindu Hasaranga");
+playerName.addPlayerName("Glenn Maxwell");
+playerName.addPlayerName("Mohammed siraj");
+playerName.addPlayerName("Rajat Patidar");
+playerName.addPlayerName("Dinesh Karthik");
+playerName.addPlayerName("Rajat Patidar");
+playerName.addPlayerName("Harshal Patel");
+playerName.addPlayerName("Michael Bracewell");
+playerName.addPlayerName("shahbaz Ahmed");
+playerName.addPlayerName("Doni");
 
 playerName.getplayerNames();
+System.out.println("Searching Mania");
+String pName = "Virat Kohli";
+System.out.println("Searching for the player " + pName);
+String playerNames =  playerName.searchByPlayerName(pName);
+System.out.println("Thank You for searching " + pName);
+
+boolean deletedPlayer = playerName.deleteBy("Dinesh Karthik");
+System.out.println("The Dinesh Karthik player is deleted "+ deletedPlayer);
+playerName.getDeletedplayerNames();
 }
 }
